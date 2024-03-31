@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="guru.qa.tests.ArticleCheckTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-03-31T23:18:18" hostname="W378597031" time="43.84">
+  <properties/>
+  <testcase name="Отображение ошибки &quot;An error occurred&quot; при открытии статьи" classname="guru.qa.tests.ArticleCheckTests" time="43.84"/>
+  <system-out><![CDATA[HTTP/1.1 200 OK
+{
+    "automation_session": {
+        "name": "first_test",
+        "duration": 34,
+        "os": "android",
+        "os_version": "9.0",
+        "browser_version": "app",
+        "browser": null,
+        "device": "Huawei P30",
+        "status": "done",
+        "hashed_id": "607ce643e3dd0aba1cfe21937e18388ccae80759",
+        "reason": "CLIENT_STOPPED_SESSION",
+        "build_name": "browserstack-build-1",
+        "project_name": "First Java Project",
+        "build_hashed_id": "743cbd42ae0b1dc2c0ca7cd37fc0d423d7788dc9",
+        "logs": "https://app-automate.browserstack.com/builds/743cbd42ae0b1dc2c0ca7cd37fc0d423d7788dc9/sessions/607ce643e3dd0aba1cfe21937e18388ccae80759/logs",
+        "browserstack_status": "done",
+        "created_at": "2024-03-31T23:18:21.000Z",
+        "browser_url": "https://app-automate.browserstack.com/builds/743cbd42ae0b1dc2c0ca7cd37fc0d423d7788dc9/sessions/607ce643e3dd0aba1cfe21937e18388ccae80759",
+        "public_url": "https://app-automate.browserstack.com/builds/743cbd42ae0b1dc2c0ca7cd37fc0d423d7788dc9/sessions/607ce643e3dd0aba1cfe21937e18388ccae80759?auth_token=064800cfef0c0da2773fd5e06bf34c4f3254006b5af419f9a4fc8f8e95c70b37",
+        "video_url": "https://app-automate.browserstack.com/sessions/607ce643e3dd0aba1cfe21937e18388ccae80759/video?token=QnRoS2VnamJqb0IvSjNWelNwT1JjZW9LWUZ3VVd5bHhhZDJneGhJN3pEY2ordVdRYVk0MmZVUzFzQnNnOGFLNHVsMEZVYjlKdFFUYnFRWmdrdTNaQUE9PS0tOXhlc3ljckxXdUxjQ09YUWZjcUFjUT09--e93ac1a8f41206bb7a412f0768f1759030162dde&source=rest_api&diff=4.382805444",
+        "appium_logs_url": "https://api.browserstack.com/app-automate/builds/743cbd42ae0b1dc2c0ca7cd37fc0d423d7788dc9/sessions/607ce643e3dd0aba1cfe21937e18388ccae80759/appiumlogs",
+        "device_logs_url": "https://api.browserstack.com/app-automate/builds/743cbd42ae0b1dc2c0ca7cd37fc0d423d7788dc9/sessions/607ce643e3dd0aba1cfe21937e18388ccae80759/devicelogs",
+        "app_details": {
+            "app_url": "bs://c700ce60cf13ae8ed97705a55b8e022f13c5827c",
+            "app_name": "org.wikipedia.alpha",
+            "app_version": "2.5.194-alpha-2017-05-30",
+            "app_custom_id": null,
+            "uploaded_at": "2019-09-25T10:02:11.000Z"
+        },
+        "session_terminal_logs_url": "https://app-automate.browserstack.com/s3-upload/bs-selenium-logs-use/s3/data/743cbd42ae0b1dc2c0ca7cd37fc0d423d7788dc9/607ce643e3dd0aba1cfe21937e18388ccae80759-terminal-logs.txt?response-content-type=text%2Fplain&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA2XUQHUQMIYJWVXBN%2F20240331%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240331T231859Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=b2c8ac275bd8e746eb030c06ad38ab6a17047d3fc58608c5dd082364141cdf43",
+        "build_terminal_logs_url": "https://app-automate.browserstack.com/s3-upload/bs-selenium-logs-use/s3/data/743cbd42ae0b1dc2c0ca7cd37fc0d423d7788dc9/terminal-logs.txt?response-content-type=text%2Fplain&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA2XUQHUQMIYJWVXBN%2F20240331%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240331T231859Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=812da3353e34c2e653f39fc94872ede6730d456ed8dab8fedb678f78dad95f62"
+    }
+}
+]]></system-out>
+  <system-err><![CDATA[[Test worker] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+[Test worker] INFO com.codeborne.selenide.impl.FileHelper - Creating folder: C:\CodeProjects\Java_Course_qa_guru_mobile\build\downloads\1711927098396_13972_1
+апр. 01, 2024 2:18:18 AM org.openqa.selenium.remote.tracing.opentelemetry.OpenTelemetryTracer createTracer
+INFO: Using OpenTelemetry for tracing
+[Test worker] INFO com.codeborne.selenide.webdriver.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+апр. 01, 2024 2:18:20 AM org.openqa.selenium.remote.RemoteWebDriver checkNonW3CCapabilities
+WARNING: Support for Legacy Capabilities is deprecated; You are sending the following invalid capabilities: [app, browserstack.key, browserstack.user, build, device, name, os_version, project]; Please update to W3C Syntax: https://www.selenium.dev/blog/2022/legacy-protocol-support/
+апр. 01, 2024 2:18:45 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+WARNING: Support for Legacy Capabilities is deprecated; You are sending the following invalid capabilities: [app, browserstack.key, browserstack.user, build, device, name, os_version, project]; Please update to W3C Syntax: https://www.selenium.dev/blog/2022/legacy-protocol-support/
+[Test worker] ERROR com.codeborne.selenide.webdriver.WebDriverFactory - Failed to set page load timeout to 30000 ms
+org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [607ce643e3dd0aba1cfe21937e18388ccae80759, setTimeout {pageLoad=30000}]
+Capabilities {64bit: false, acceptSslCert: false, acceptSslCerts: false, adbExecTimeout: 120000, appActivity: org.wikipedia.main.MainActi..., appPackage: org.wikipedia.alpha, automationName: uiautomator2, browserstack.appium_version: 1.17.0, browserstack.is_hub_canary: false, browserstack.minOSVersion: 4.1, buildName: browserstack-build-1, bundleID: org.wikipedia.alpha, bundleId: org.wikipedia.alpha, capabilities: {64bit: false, acceptSslCert: false, acceptSslCerts: false, adbExecTimeout: 120000, appActivity: org.wikipedia.main.MainActi..., appPackage: org.wikipedia.alpha, automationName: uiautomator2, browserstack.appium_version: 1.17.0, browserstack.is_hub_canary: false, browserstack.minOSVersion: 4.1, buildName: browserstack-build-1, bundleID: org.wikipedia.alpha, bundleId: org.wikipedia.alpha, chromeOptions: {w3c: false}, chromedriverPort: 18083, chromedriverPorts: [[18133, 18143]], databaseEnabled: false, detected_language: selenium/4.8.3 (java windows), device: huawei p30, deviceApiLevel: 28, deviceManufacturer: HUAWEI, deviceModel: ELE-L09, deviceName: WCV5T19312003045, deviceScreenDensity: 480, deviceScreenSize: 1080x2340, deviceUDID: WCV5T19312003045, disableSuppressAccessibilityService: true, enablePerformanceLogging: false, instant_app_enabled_group: false, is_an_instant_app: false, javascriptEnabled: true, locationContextEnabled: false, mobile: {browser: mobile, version: Huawei P30-9.0}, nativeWebScreenshot: true, networkConnectionEnabled: true, newCommandTimeout: 0, new_bucketing: true, orig_os: android, osVersion: 9.0, os_version: 9.0, pixelRatio: 3, platform: ANDROID, platformName: Android, platformVersion: 9, projectName: First Java Project, realMobile: true, sessionId: 607ce643e3dd0aba1cfe21937e1..., sessionName: first_test, skipServerInstallation: true, statBarHeight: 75, systemPort: 8203, takesScreenshot: true, udid: WCV5T19312003045, uiautomator2ServerLaunchTimeout: 60000, version: , viewportRect: {height: 2064, left: 0, top: 75, width: 1080}, warnings: {}, webStorageEnabled: false}, chromeOptions: {w3c: false}, chromedriverPort: 18083, chromedriverPorts: [[18133, 18143]], databaseEnabled: false, detected_language: selenium/4.8.3 (java windows), device: huawei p30, deviceApiLevel: 28, deviceManufacturer: HUAWEI, deviceModel: ELE-L09, deviceName: WCV5T19312003045, deviceScreenDensity: 480, deviceScreenSize: 1080x2340, deviceUDID: WCV5T19312003045, disableSuppressAccessibilityService: true, enablePerformanceLogging: false, instant_app_enabled_group: false, is_an_instant_app: false, javascriptEnabled: true, locationContextEnabled: false, mobile: {browser: mobile, version: Huawei P30-9.0}, nativeWebScreenshot: true, networkConnectionEnabled: true, newCommandTimeout: 0, new_bucketing: true, orig_os: android, osVersion: 9.0, os_version: 9.0, pixelRatio: 3, platform: ANDROID, platformName: ANDROID, platformVersion: 9, projectName: First Java Project, realMobile: true, sessionId: 607ce643e3dd0aba1cfe21937e1..., sessionName: first_test, skipServerInstallation: true, statBarHeight: 75, systemPort: 8203, takesScreenshot: true, udid: WCV5T19312003045, uiautomator2ServerLaunchTimeout: 60000, version: , viewportRect: {height: 2064, left: 0, top: 75, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 607ce643e3dd0aba1cfe21937e18388ccae80759
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.pageLoadTimeout(RemoteWebDriver.java:898)
+	at com.codeborne.selenide.webdriver.WebDriverFactory.setLoadTimeout(WebDriverFactory.java:95)
+	at com.codeborne.selenide.webdriver.WebDriverFactory.createWebDriver(WebDriverFactory.java:72)
+	at com.codeborne.selenide.drivercommands.CreateDriverCommand.lambda$createDriver$0(CreateDriverCommand.java:76)
+	at com.codeborne.selenide.logevents.SelenideLogger.get(SelenideLogger.java:118)
+	at com.codeborne.selenide.drivercommands.CreateDriverCommand.createDriver(CreateDriverCommand.java:52)
+	at com.codeborne.selenide.impl.WebDriverThreadLocalContainer.createDriver(WebDriverThreadLocalContainer.java:202)
+	at com.codeborne.selenide.impl.WebDriverThreadLocalContainer.createAndRegisterDriver(WebDriverThreadLocalContainer.java:186)
+	at com.codeborne.selenide.impl.WebDriverThreadLocalContainer.getAndCheckWebDriver(WebDriverThreadLocalContainer.java:155)
+	at com.codeborne.selenide.WebDriverRunner.getAndCheckWebDriver(WebDriverRunner.java:130)
+	at com.codeborne.selenide.impl.StaticDriver.getAndCheckWebDriver(StaticDriver.java:65)
+	at com.codeborne.selenide.SelenideDriver.getAndCheckWebDriver(SelenideDriver.java:220)
+	at com.codeborne.selenide.logevents.SelenideLogger.run(SelenideLogger.java:105)
+	at com.codeborne.selenide.drivercommands.Navigator.open(Navigator.java:89)
+	at com.codeborne.selenide.SelenideDriver.open(SelenideDriver.java:97)
+	at com.codeborne.selenide.Selenide.open(Selenide.java:129)
+	at guru.qa.tests.BaseTest.addLogger(BaseTest.java:28)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:727)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at io.qameta.allure.junit5.AllureJunit5.processFixture(AllureJunit5.java:138)
+	at io.qameta.allure.junit5.AllureJunit5.interceptBeforeEachMethod(AllureJunit5.java:116)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptLifecycleMethod(TimeoutExtension.java:128)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptBeforeEachMethod(TimeoutExtension.java:78)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeMethodInExtensionContext(ClassBasedTestDescriptor.java:520)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$synthesizeBeforeEachMethodAdapter$23(ClassBasedTestDescriptor.java:505)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeBeforeEachMethods$3(TestMethodTestDescriptor.java:174)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeBeforeMethodsOrCallbacksUntilExceptionOccurs$6(TestMethodTestDescriptor.java:202)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeBeforeMethodsOrCallbacksUntilExceptionOccurs(TestMethodTestDescriptor.java:202)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeBeforeEachMethods(TestMethodTestDescriptor.java:171)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:134)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:68)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:147)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:127)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:90)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:55)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:102)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86)
+	at org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.processAllTestClasses(JUnitPlatformTestClassProcessor.java:119)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.access$000(JUnitPlatformTestClassProcessor.java:94)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor.stop(JUnitPlatformTestClassProcessor.java:89)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:62)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at jdk.proxy1/jdk.proxy1.$Proxy2.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:193)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:113)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:65)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+Caused by: java.lang.IllegalArgumentException: Cannot decode response content: {"status":405,"value":{"message":"Not implemented yet for pageLoad.","sessionId":"607ce643e3dd0aba1cfe21937e18388ccae80759","capabilities":{"message":"Not implemented yet for pageLoad.","sessionId":"607ce643e3dd0aba1cfe21937e18388ccae80759"}},"sessionId":"607ce643e3dd0aba1cfe21937e18388ccae80759"}
+	at org.openqa.selenium.remote.codec.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:86)
+	at org.openqa.selenium.remote.codec.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:47)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	... 111 more
+Caused by: org.openqa.selenium.json.JsonException: Unable to parse: {"status":405,"value":{"message":"Not implemented yet for pageLoad.","sessionId":"607ce643e3dd0aba1cfe21937e18388ccae80759","capabilities":{"message":"Not implemented yet for pageLoad.","sessionId":"607ce643e3dd0aba1cfe21937e18388ccae80759"}},"sessionId":"607ce643e3dd0aba1cfe21937e18388ccae80759"}
+	at org.openqa.selenium.json.Json.toType(Json.java:57)
+	at org.openqa.selenium.json.Json.toType(Json.java:50)
+	at org.openqa.selenium.remote.codec.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:83)
+	... 115 more
+Caused by: org.openqa.selenium.json.JsonException: Unable to create instance of class org.openqa.selenium.remote.Response
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: driver.version: SelenideDriver
+	at org.openqa.selenium.json.StaticInitializerCoercer.lambda$apply$0(StaticInitializerCoercer.java:61)
+	at org.openqa.selenium.json.JsonTypeCoercer.lambda$buildCoercer$6(JsonTypeCoercer.java:145)
+	at org.openqa.selenium.json.JsonTypeCoercer.coerce(JsonTypeCoercer.java:127)
+	at org.openqa.selenium.json.Json.toType(Json.java:71)
+	at org.openqa.selenium.json.Json.toType(Json.java:55)
+	... 117 more
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.openqa.selenium.json.StaticInitializerCoercer.lambda$apply$0(StaticInitializerCoercer.java:59)
+	... 121 more
+Caused by: java.lang.IllegalArgumentException: expected one element but was: <unknown method, unsupported operation>
+	at com.google.common.collect.Iterators.getOnlyElement(Iterators.java:323)
+	at com.google.common.collect.Iterators.getOnlyElement(Iterators.java:336)
+	at com.google.common.collect.Iterables.getOnlyElement(Iterables.java:278)
+	at org.openqa.selenium.remote.ErrorCodes.toState(ErrorCodes.java:181)
+	at org.openqa.selenium.remote.Response.fromJson(Response.java:118)
+	... 126 more
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - BrowserName= Version= Platform=ANDROID
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenide v. 6.13.0
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenium WebDriver v. 4.8.3 build revision: e5e76298c3
+[Test worker] INFO com.codeborne.selenide.drivercommands.CreateDriverCommand - Created webdriver in thread 1: RemoteWebDriver -> RemoteWebDriver:  on ANDROID (607ce643e3dd0aba1cfe21937e18388ccae80759)
+[Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Register WebDriverInstance[config=StaticConfig,webDriver=RemoteWebDriver:  on ANDROID (607ce643e3dd0aba1cfe21937e18388ccae80759),proxy=null,downloadsFolder=C:\CodeProjects\Java_Course_qa_guru_mobile\build\downloads\1711927098396_13972_1] in 1 [size=1]
+[Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Add shutdown hook in 1 [size=1]
+[Test worker] INFO com.codeborne.selenide.impl.FileHelper - Deleted empty folder: C:\CodeProjects\Java_Course_qa_guru_mobile\build\downloads\1711927098396_13972_1
+[Test worker] INFO com.codeborne.selenide.drivercommands.CloseDriverCommand - Close webdriver: 1 -> RemoteWebDriver:  on ANDROID (607ce643e3dd0aba1cfe21937e18388ccae80759)...
+[Test worker] INFO com.codeborne.selenide.drivercommands.CloseDriverCommand - Closed webdriver 1 in 794 ms
+[Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Unregister WebDriverInstance[config=StaticConfig,webDriver=RemoteWebDriver:  on ANDROID (null),proxy=null,downloadsFolder=C:\CodeProjects\Java_Course_qa_guru_mobile\build\downloads\1711927098396_13972_1] in 1 [size=0]
+]]></system-err>
+</testsuite>
