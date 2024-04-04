@@ -12,8 +12,8 @@ repositories {
 }
 
 java {
-    sourceCompatibility = '11'
-    targetCompatibility = '11'
+    sourceCompatibility = '17'
+    targetCompatibility = '17'
 }
 
 compileJava {
@@ -55,6 +55,7 @@ dependencies {
             "io.qameta.allure:allure-selenide:$allureVersion",
             "io.rest-assured:rest-assured:$restAssuredVersion",
             "io.qameta.allure:allure-rest-assured:$allureVersion",
+            "commons-io:commons-io:2.11.0",
             "org.slf4j:slf4j-simple:$slf4jVersion",
             "org.aeonbits.owner:owner:$ownerVersion",
             "org.assertj:assertj-core:$assertjVersion",
