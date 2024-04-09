@@ -22,7 +22,7 @@ public class ArticleCheckTests extends BaseTest {
 
     @Test
     @DisplayName("Отображение ошибки \"An error occurred\" при открытии статьи")
-    void CheckErrorOnArticleTest() {
+    void checkErrorOnArticleTest() {
         step("Search for Telegram", () -> {
             $(id("org.wikipedia.alpha:id/search_container")).click();
             $(id("org.wikipedia.alpha:id/search_src_text")).sendKeys("Telegram");
